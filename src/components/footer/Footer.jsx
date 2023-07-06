@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.scss";
 import { FiInstagram } from "react-icons/fi";
-import { AiFillThunderbolt } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -40,17 +39,6 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <small>&copy; QUANTUM WEB DEVS. ALL RIGTHS RESERVED.</small>
-        <p>
-          Developed by{" "}
-          <a
-            href="https://my-portfolio-aju-z.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillThunderbolt />
-            AJU
-          </a>
-        </p>
       </div>
     </footer>
   );

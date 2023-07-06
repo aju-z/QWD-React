@@ -5,12 +5,10 @@ import Avatar2 from "../../assets/Avatar2.png";
 import Avatar3 from "../../assets/Avatar3.png";
 import Avatar4 from "../../assets/Avatar4.png";
 
-// import Swiper core and required modules
 import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -19,25 +17,24 @@ const data = [
     avatar: Avatar1,
     name: "Sabarinadhan",
     review:
-      "Ipsa dolorum earum eveniet velit voluptatum deleniti alias aperiam!",
+      "Thanks for providing good support and for making an visually stunning website with awesome functionality.",
   },
   {
     avatar: Avatar2,
-    name: "Murugan",
+    name: "Nizar Ahmed",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis perferendis est vel, possimus mollitia eius aliquam facere modi voluptatibus culpa perspiciatis. Ipsa dolorum earum eveniet velit",
+      "I'm extremely satisfied with the service provided, They understood my vision and turned it into a stunning website.",
   },
   {
     avatar: Avatar3,
-    name: "Sundar",
-    review:
-      "possimus mollitia eius aliquam facere modi voluptatibus culpa perspiciatis. Ipsa dolorum earum eveniet velit voluptatum deleniti alias aperiam!",
+    name: "Ajees",
+    review: "Pixle perfect websites with with fantastic functionality!",
   },
   {
     avatar: Avatar4,
-    name: "Venu Gopal",
+    name: "Mujibar",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis perferendis est vel, possimus mollitia eius aliquam facere modi voluptatibus culpa perspiciatis. Ipsa dolorum earum eveniet velit voluptatum deleniti alias aperiam!",
+      "They patiently listened to my requirements and transalated them into a visually appealing website.",
   },
 ];
 
@@ -57,7 +54,7 @@ const Testimonials = () => {
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <SwiperSlide key={index} className="testimonial ">
+            <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
                 <img src={avatar} alt="Avatar" />
               </div>

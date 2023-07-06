@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { RiWhatsappFill } from "react-icons/ri";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
@@ -13,11 +14,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "service_edg4jmo",
+      "template_h855x3x",
       form.current,
-      "YOUR_PUBLIC_KEY"
+      "0h7ppxGixTYlXM4E5"
     );
+    toast.success("Mail Sent Succesfully");
     e.target.reset();
   };
 
@@ -85,6 +87,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+          <Toaster />
         </form>
       </div>
     </section>

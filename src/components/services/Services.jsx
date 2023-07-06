@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.scss";
-import { AiOutlineCheck } from "react-icons/ai";
+import { TiTick } from "react-icons/ti";
 
 const Services = () => {
   return (
@@ -14,20 +14,20 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Expertiece in UI/UX</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>User-centric interfaces</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Crafting visually stunning websites</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Aesthetics and functionality</p>
             </li>
           </ul>
         </article>
@@ -39,24 +39,24 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Web Design and Development</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>E-Commerce Development</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Cusstom Web Applications</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Website Maintanence & Support</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>API Integration</p>
             </li>
           </ul>
         </article>
@@ -68,20 +68,20 @@ const Services = () => {
           </div>
           <ul className="service__list">
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Webite Hosting</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Domain Hosting</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>VPS Hosting</p>
             </li>
             <li>
-              <AiOutlineCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <TiTick className="service__list-icon" />
+              <p>Shared Hosting</p>
             </li>
           </ul>
         </article>

@@ -38,10 +38,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime
-            deleniti dolores alias quibusdam officia asperiores impedit nihil,
-            dolore, distinctio, maiores neque reiciendis ipsa facere. Nisi
-            deserunt exercitationem iusto atque odit.
+            We are a skilled team of web developers dedicated to creating
+            exceptional digital experiences. We transform ideas into engaging
+            websites and web applications. We pride ourselves on our attention
+            to detail, commitment to client satisfaction.
           </p>
           <a href="#contact" className="btn btn-primary">
             Reach Out
