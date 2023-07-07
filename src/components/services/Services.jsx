@@ -15,7 +15,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <TiTick className="service__list-icon" />
-              <p>Expertiece in UI/UX</p>
+              <p>Expertise in UI/UX</p>
             </li>
             <li>
               <TiTick className="service__list-icon" />
@@ -48,11 +48,11 @@ const Services = () => {
             </li>
             <li>
               <TiTick className="service__list-icon" />
-              <p>Cusstom Web Applications</p>
+              <p>Custom Web Applications</p>
             </li>
             <li>
               <TiTick className="service__list-icon" />
-              <p>Website Maintanence & Support</p>
+              <p>Website Maintenance & Support</p>
             </li>
             <li>
               <TiTick className="service__list-icon" />
@@ -69,7 +69,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <TiTick className="service__list-icon" />
-              <p>Webite Hosting</p>
+              <p>Website Hosting</p>
             </li>
             <li>
               <TiTick className="service__list-icon" />
